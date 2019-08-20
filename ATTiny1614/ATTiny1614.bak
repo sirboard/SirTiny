@@ -146,12 +146,10 @@ $EndComp
 Wire Wire Line
 	6350 3200 6350 3300
 Wire Wire Line
-	7650 4100 8050 4100
+	7650 4100 7800 4100
 Wire Wire Line
 	7050 4900 7050 5300
 Connection ~ 7050 5300
-Wire Wire Line
-	7650 4400 7800 4400
 Wire Wire Line
 	3550 2850 3700 2850
 Wire Wire Line
@@ -414,11 +412,6 @@ $EndComp
 Wire Wire Line
 	7800 4650 7800 4750
 Wire Wire Line
-	7800 4450 7800 4400
-Connection ~ 7800 4400
-Wire Wire Line
-	7800 4400 8050 4400
-Wire Wire Line
 	7800 5050 7800 5300
 Connection ~ 7800 5300
 Wire Wire Line
@@ -518,4 +511,11 @@ F 3 "~" H 10300 4550 50  0001 C CNN
 	1    10300 4550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	8050 4400 7650 4400
+Wire Wire Line
+	7800 4450 7800 4100
+Connection ~ 7800 4100
+Wire Wire Line
+	7800 4100 8050 4100
 $EndSCHEMATC
