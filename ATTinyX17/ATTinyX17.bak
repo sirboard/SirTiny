@@ -573,10 +573,10 @@ Wire Wire Line
 	975  3250 1575 3250
 Connection ~ 1575 3250
 $Comp
-L MCU_Microchip_ATtiny:ATtiny3217-M U?
+L MCU_Microchip_ATtiny:ATtiny3217-M U2
 U 1 1 5EA3BC2D
 P 5125 2075
-F 0 "U?" H 5200 3225 50  0000 C CNN
+F 0 "U2" H 5200 3225 50  0000 C CNN
 F 1 "ATtiny3217-M" H 5425 3150 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 5125 2075 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3217_1617-Data-Sheet-40001999B.pdf" H 5125 2075 50  0001 C CNN
@@ -622,10 +622,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 1275 6500 3250
 $Comp
-L Connector_Generic:Conn_01x13 J?
+L Connector_Generic:Conn_01x13 J1
 U 1 1 5EA997A0
 P 1425 4175
-F 0 "J?" H 1504 4172 50  0000 L CNN
+F 0 "J1" H 1504 4172 50  0000 L CNN
 F 1 "Conn_01x13" H 1504 4127 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 1425 4175 50  0001 C CNN
 F 3 "~" H 1425 4175 50  0001 C CNN
@@ -633,10 +633,10 @@ F 3 "~" H 1425 4175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x13 J?
+L Connector_Generic:Conn_01x13 J2
 U 1 1 5EAA1A24
 P 1850 4175
-F 0 "J?" H 1929 4172 50  0000 L CNN
+F 0 "J2" H 1929 4172 50  0000 L CNN
 F 1 "Conn_01x13" H 1929 4127 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 1850 4175 50  0001 C CNN
 F 3 "~" H 1850 4175 50  0001 C CNN
